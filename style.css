@@ -75,11 +75,11 @@
 
 /* -----------services section----------------------- */
 #services {
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .serivces {
-    margin-top: 50px !important;
+   padding: 50px 0;
 }
 
 .services-img {
@@ -90,6 +90,7 @@
 .title {
     font-weight: 600;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .title::before {
@@ -124,13 +125,16 @@
     padding: 8px 25px !important;
     margin-top: 20px !important;
     border-radius: 20px !important;
+    display: inline-block;
+    width: 130px;
+    margin: auto;
 
 }
 
 /* -----------about-us------------------- */
 #about-us {
-    padding: 70px 0;
     background-color: rgb(210, 211, 211);
+    padding: 100px 0;
 }
 
 .about-title {
